@@ -1,0 +1,22 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  p {
+    font-size: 4rem;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+}

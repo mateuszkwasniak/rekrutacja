@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  color: black;
+  border: 3px solid black;
+  border-radius: 0;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+
+  input {
+    font-size: 3rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-left: 3px solid black;
+    padding-left: 1rem;
+    .icon {
+      font-size: 3rem;
+    }
+  }
+}
